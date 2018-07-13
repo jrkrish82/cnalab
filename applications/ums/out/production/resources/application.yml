@@ -1,2 +1,11 @@
 server:
   port: 8080
+
+billingEndpoint: http://localhost:8081
+
+spring:
+   application:
+     name: ums
+security:
+  basic:
+    enabled: false
